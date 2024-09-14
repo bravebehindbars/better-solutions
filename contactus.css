@@ -1,0 +1,73 @@
+body{
+	background-image:url(worker.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+
+p{
+	font-size:3em;
+	
+	color:white;
+	letter-spacing:4px;
+}
+
+
+
+
+
+section{
+	text-align:center;
+	display:inline-block;
+	margin-left:1700px;
+	margin-top:150px;
+	
+}
+
+.icons{
+	margin-top:40px;
+	margin-left:1800px;
+
+}
+ 
+.icons a{
+	position: relative;
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	background: transparent;
+	box-shadow: 0 4px 4px  rgba(0, 0, 0, .3);
+	margin: 0 8px;
+	z-index: 1;
+	text-align:center;
+	line-height:105px;
+	transition: .3s;
+	border:1px solid  #fc4b08;
+}
+.icons a:hover {
+	background: #fc4b08;
+	transform: rotate(135deg);
+	box-shadow: 0 0 5px #fc4b08,  0 0 10px  #fc4b08;
+}
+.icons a::before{
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80px;
+	height:80px;
+	background: #b22222;
+	z-index:-1;
+}
+
+.icons a i {
+	font-size:36px;
+	color: #000000;
+	transition: .3s;
+}
+
+.icons a:hover i{
+	transform: rotate(225deg);
+	color:#fc4b08;
+}

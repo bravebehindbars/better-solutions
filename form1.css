@@ -1,0 +1,30 @@
+body{
+	background-image:url(handchain.png); 
+	background-size: 1400px 1000px;
+	background-repeat:no-repeat;
+	background-position:50% -30%;
+	background-color:rgba(0,0,0,0.6);
+	
+}
+
+.mb-3, .input-group{
+	width:50%;
+	margin:50px auto;
+	opacity:.7;
+	border:2px solid blue;
+
+}
+
+.form-label{
+	color:black;
+}
+
+.submit{
+	margin-left:1250px;
+}
+p{
+	text-align:center;
+	font-size:50px;
+	margin:25px;
+	color:#90d6ff;
+}
